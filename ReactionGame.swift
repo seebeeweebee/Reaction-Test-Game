@@ -121,10 +121,10 @@ for round in 1...totalRounds {
         print(magenta + bold + "  ╚══════════════════════════════════════╝" + reset)
         print()
         // ✏️ EDIT THIS MESSAGE BELOW ─────────────────────────────────────────
-        print(white + bold + "Welcome to the final reaction test. This final round will really challenge your reflexes! The USB plugged into your computer will send commands to open random websites (don't worry, not weird ones) in Google as a distraction. At a random point, you will be asked for your final fingerprint scan. Make sure to be quick and don't get distracted! Same rules apply, make sure to not press any other buttons except the fingerprint button or else the game will likely break lol. Lastly, the USB should stay plugged in after the final fingerprint scan/reaction test so it has time to calculate your final score." + reset)
+        print(white + bold + "Welcome to the final reaction test. This final round will really challenge your reflexes! To continue, you must ask Seabass for his Rubber Ducky USB to plug into your computer that will send commands to your laptop to open a couple random websites (don't worry, not weird ones) in Google as a distraction. At a random point, you will be asked for your final fingerprint scan. Make sure to be quick and don't get distracted! Same rules still apply, make sure to not press any other buttons except the fingerprint button or else the game will likely break lol." + reset)
         // ✏️ EDIT THIS MESSAGE ABOVE ─────────────────────────────────────────
         print()
-        print(yellow + "Press ENTER to start the final round..." + reset)
+        print(yellow + "Waiting for USB connection to start the final round..." + reset)
         _ = readLine()
         exit(0)
     }
