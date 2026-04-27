@@ -140,5 +140,6 @@ for round in 1...totalRounds {
     }
 }
 SWIFTEOF
-echo "🍑 Compiling your game... hang tight bestie (10-15 secs)..."
+clear
+echo "🍑 Compiling your game... hang tight bestie (This could take up to a minute)..."
 swiftc /tmp/touchid_game.swift -framework LocalAuthentication -o /tmp/touchid_game 2>&1 && echo "✅ Done compiling! Launching NOW 🔥" && /tmp/touchid_game
